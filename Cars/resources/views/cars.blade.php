@@ -11,13 +11,13 @@
     <form action="">
 
         <label >Type</label>
-        <input type="text" name="type"><br>
+        <input type="text" name="type" id="name"><br>
 
         <label for="">Number</label>
-        <input type="number" name="number"><br>
+        <input type="number" name="number" id="number"><br>
 
         <label for="">Color</label>
-        <input type="text" name="Color"><br>
+        <input type="text" name="Color" id="color"><br>
 
         <button type="submit">add</button>
     </form>

@@ -3,7 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
-use App\Http\Controllers\ddcar;
+use App\Http\Controllers\AddCar;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,4 +38,4 @@ Route::get('/', function () {
     return view('cars');
 });
 
-// Route::get('/', [addcarcontroller::class , 'addcar'])->name('addcar');
+Route::get('/cars', [AddCarController::class , 'addcar'])->name('addcar');
